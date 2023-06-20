@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jackson</title>
+    <style>
+      html {
+  /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 11px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 0;
+  margin-top: 25;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+.king {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 50px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 -10px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 80px auto 50px auto;
+  text-align: left;
+}
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Michael Joseph Jackson</h1>
+      <h2 id="subtitle">August 29, 1958 - June 25, 2009
+      <p class="king">"King of Pop"</p>
+      <figure id="img-div">
+        <img id="image"
+            src="https://images4.fanpop.com/image/photos/22300000/Bad-Tour-michael-jackson-22335038-2210-2560.jpg"
+            alt="MJ portrait">
+        <figcaption id="img-caption"><i>
+          Michael Jackson in BAD World Tour</i>
+        </figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">Here's a time line of Michael Jackson's life:</h3>
+        <ul>
+          <li><strong>1958</strong> - born in Gary, Indiana</li>
+          <li><strong>1962</strong> - singing debut with his brothers, The Jackson Five</li>
+          <li><strong>1969</strong> - first Jackson Five contract with Tamla Motown, Detroit's black-owned record label. Michael's voice propels the group onto the hit parade with ABC and I'll Be There</li>
+          <li><strong>1970</strong> - launch of solo career alongside that of the Jackson Five</li>
+          <li><strong>1979</strong> - release of Off The Wall album, produced by Quincy Jones, which sold 11 million copies</li>
+          <li><strong>1982</strong> - release of Thriller album, whose seven hits included Billie Jean and Beat It, pushing sales to 50 million copies worldwide</li>
+          <li><strong>1984</strong> - Jackson's face gets burnt during filming for a Pepsi ad</li>
+          <li><strong>1985</strong> - buys ATV Music - a company with rights to John Lennon and Paul McCartney songs - for $US47.5 million
+          </li>
+          <li><strong>1985</strong> - Jackson writes We Are The World, which benefited the fight against hunger in Africa</li>
+          <li><strong>1987</strong> - release of Bad, which sold 26 million copies and marked the end of his collaboration with Quincy Jones</li>
+          <li><strong>1988</strong> - his autobiography Moonwalk comes out</li>
+          <li><strong>1990</strong> - Michael Jackson is seen for the first time wearing a surgical mask in public</li>
+          <li><strong>1992</strong> - release of Dangerous, which sold 22 million copies</li>
+          <li><strong>1994</strong> - marriage to Lisa Marie Presley, daughter of Elvis</li>
+          <li><strong>1995</strong> - release of HIStory album</li>
+          <li><strong>1996</strong> - marriage to Debbie Rowe, a 37-year-old nurse with whom he has two children, Prince Michael and Paris Michael Katherine</li>
+          <li><strong>2001</strong> - release of Invincible</li>
+          <li><strong>2009</strong> - Jackson announces series of comeback concerts in London - billed as the "final curtain" - his first major shows for more than a decade</li>
+          <li><strong>June 25, 2009</strong> - Jackson reported dead in Los Angeles after suffering cardiac arrest</li>
+        </ul>
+        <blockquote cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm">
+          <p>"The incomparable Michael Jackson has made a bigger impact on music than any other artist in the history of music. He was magic."</p>
+          <cite>-- R&B singer Beyonce</cite>
+        </blockquote>
+        <h3>
+          If you have time, you should read more about this incredible human being on his
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Michael_Jackson" target="_blank">Wikipedia entry</a>
+        </h3>
+      </section>
+    </main>
+  </body>
+</html>                      
